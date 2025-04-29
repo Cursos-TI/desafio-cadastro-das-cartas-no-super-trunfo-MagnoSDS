@@ -8,8 +8,8 @@
 
 int main() {
     int carta;
-    char estado;
-    char cidade;
+    char estado[20];
+    char cidade[20];
     int habitantes;
     float area;
     float pib;
@@ -25,15 +25,23 @@ int main() {
 
     printf("Digite o nome da cidade: ");
     scanf("%s", &cidade);
-    printf("A cidade é: %s", cidade);
+    printf("A cidade é: %s\n", cidade);
 
     printf("Digite a quantidade de habitantes: ");
     scanf("%d", &habitantes);
-    printf("A quantidade de habitantes é: %d", habitantes);
+    printf("A quantidade de habitantes é: %d\n", habitantes);
 
     printf("Digite a area: ");
     scanf("%f", &area);
-    printf("A area é: ")
+    printf("A area é: %f\n", area);
+
+    printf("Digite o valor do pib: ");
+    scanf("%f", &pib);
+    printf("O valor do pib é: %f\n", pib);
+
+    printf("Digite a quantidade de atracao: ");
+    scanf("%d", &atracao);
+    printf("A quantidade de atracao é: %d", atracao);
 
     return 0;
 

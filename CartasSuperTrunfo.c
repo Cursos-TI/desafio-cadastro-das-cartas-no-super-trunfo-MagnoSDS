@@ -9,45 +9,31 @@
 int main() {
     int carta;
     char estado;
-    char codigo[10];
-    char cidade[10];
+    char cidade;
     int habitantes;
     float area;
-    float PIB;
+    float pib;
     int atracao;
 
-    printf("Didite o número da carta: \n");
+    printf("Digite o numero da carta: ");
     scanf("%d", &carta);
+    printf("A carta é: %d\n", carta);
 
-    printf("Digite o nome do estado: \n");
+    printf("Digite o nome do estado: ");
     scanf("%s", &estado);
+    printf("O estado é: %s\n", estado);
 
-    printf("Digite o númedo do código da cidade: \n");
-    scanf("%d", &codigo);
-
-    printf("Didite o nome da cidade: \n");
+    printf("Digite o nome da cidade: ");
     scanf("%s", &cidade);
+    printf("A cidade é: %s", cidade);
 
-    printf("Digite a quantidade de habitantes: \n");
+    printf("Digite a quantidade de habitantes: ");
     scanf("%d", &habitantes);
+    printf("A quantidade de habitantes é: %d", habitantes);
 
-    printf("Digite a quantidade da área em km²: \n");
+    printf("Digite a area: ");
     scanf("%f", &area);
-
-    printf("Digite o valor do PIB: \n");
-    scanf("%f", &PIB);
-
-    printf("Digite a quantidade de atracao: \n");
-    scanf("%d", &atracao);
-
-    printf("carta: %d\n", carta);
-    printf("estado: %s\n", estado);
-    printf("codigo: %d\n", codigo);
-    printf("cidade: %s\n", cidade);
-    printf("habitantes: %d\n", habitantes);
-    printf("area: %f\n", area);
-    printf("PIB: %f\n", PIB);
-    printf("atracao: %d", atracao);
+    printf("A area é: ")
 
     return 0;
 

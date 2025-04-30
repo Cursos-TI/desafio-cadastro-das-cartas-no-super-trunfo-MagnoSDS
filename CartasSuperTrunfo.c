@@ -13,23 +13,23 @@ int main() {
     int habitantes;
     float area;
     float pib;
-    int atracao;
+    int pontosturisticos;
 
     printf("Digite o numero da carta: ");
     scanf("%d", &carta);
-    printf("A carta é: %d\n", carta);
+    printf("O numero da carta é: %d\n", carta);
 
     printf("Digite o nome do estado: ");
-    scanf("%s", &estado);
-    printf("O estado é: %s\n", estado);
+    scanf("%s", estado);
+    printf("O nome do estado é: %s\n", estado);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
     printf("A cidade é: %s\n", cidade);
 
-    printf("Digite a quantidade de habitantes: ");
+    printf("Digite o numero de habitantes: ");
     scanf("%d", &habitantes);
-    printf("A quantidade de habitantes é: %d\n", habitantes);
+    printf("O numero de habitantes é: %d\n", habitantes);
 
     printf("Digite a area: ");
     scanf("%f", &area);
@@ -39,9 +39,9 @@ int main() {
     scanf("%f", &pib);
     printf("O valor do pib é: %f\n", pib);
 
-    printf("Digite a quantidade de atracao: ");
-    scanf("%d", &atracao);
-    printf("A quantidade de atracao é: %d", atracao);
+    printf("Digite a quantidade de pontosturiscos: ");
+    scanf("%d", &pontosturisticos);
+    printf("A quantidade de pontosturisticos é: %d\n", pontosturisticos);
 
     return 0;
 
